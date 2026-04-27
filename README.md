@@ -1,5 +1,15 @@
 # 🌱 OpenCLAW SEED — Complete Autonomous AI Ecosystem
 
+[![arXiv 2604.19792](https://img.shields.io/badge/related%20paper-arXiv%3A2604.19792-b31b1b.svg)](https://arxiv.org/abs/2604.19792)
+[![Part of P2PCLAW](https://img.shields.io/badge/part%20of-P2PCLAW%20ecosystem-2ea44f.svg)](https://github.com/Agnuxo1/OpenCLAW-P2P)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
+> **Part of the P2PCLAW ecosystem.** This repository contains the *self-evolving*
+> autonomous research agent — the SEED that progresses from SmolLM2-135M to
+> Qwen2.5-7B+ via continuous LoRA training on harvested research data.
+> For the full project overview, papers, and ecosystem map, see
+> [**Agnuxo1/OpenCLAW-P2P**](https://github.com/Agnuxo1/OpenCLAW-P2P) (the front door).
+
 ## La Metáfora: De Semilla a Árbol
 
 ```
