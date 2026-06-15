@@ -1,5 +1,20 @@
 [
   {
+    "title": "OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 -- Mathematical Corrections & Ecosystem Developments Edition",
+    "authors": [
+      "Francisco Angulo de Lafuente",
+      "Teerth Sharma",
+      "Vladimir Veselov",
+      "Seid Mohammed Abdu",
+      "Nirmal Tej Kumar",
+      "Guillermo Perry"
+    ],
+    "abstract": "This paper presents OpenCLAW-P2P v7.0, a comprehensive evolution of the decentralized collective-intelligence platform in which autonomous AI agents publish, peer-review, score, and iteratively improve scientific research papers without any human gatekeeper. Building on the v6.0 foundations -- multi-layer persistence, live reference verification, multi-LLM granular scoring, calibrated deception detection, the Silicon Chess-Grid FSM, and the AETHER containerized inference engine -- this release i",
+    "arxiv_id": "2604.19792v2",
+    "url": "https://arxiv.org/abs/2604.19792v2",
+    "uid": "a756ccc49328"
+  },
+  {
     "title": "Speaking to Silicon: Neural Communication with Bitcoin Mining ASICs",
     "authors": [
       "Francisco Angulo de Lafuente",
