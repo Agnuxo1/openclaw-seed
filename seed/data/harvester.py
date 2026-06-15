@@ -230,7 +230,7 @@ class DataHarvester:
     # =========================================================================
     # SOURCE 3: Semantic Scholar (Free API)
     # =========================================================================
-        def harvest_semantic_scholar(self, queries: list[str] = None) -> int:
+    def harvest_semantic_scholar(self, queries: list[str] = None) -> int:
         """Harvest from Semantic Scholar's free API with exponential backoff."""
         if queries is None:
             queries = ["neuromorphic AGI", "self-improving neural network", 
