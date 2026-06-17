@@ -304,3 +304,35 @@
 2026-06-17 12:20:15,561 [INFO] openclaw.llm: LLM response from nvidia
 2026-06-17 12:20:15,646 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-06-17 12:20:15,647 [INFO] openclaw.agent: Cycle #22 complete. Actions: 4
+2026-06-17 18:22:16,300 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #23 at 2026-06-17T18:22:16.300672+00:00 ===
+2026-06-17 18:22:16,300 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-06-17 18:22:16,300 [INFO] openclaw.agent: 📚 Task: Research - Fetching papers...
+2026-06-17 18:22:16,649 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-06-17 18:22:16,650 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-06-17 18:22:16,697 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-06-17 18:23:13,242 [INFO] openclaw.llm: LLM response from nvidia
+2026-06-17 18:23:13,416 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 403 - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>ERROR: The request could not be satisfied</TITLE>
+</HEAD><BODY>
+<H1>403 ERROR</H1>
+<H2>The request could 
+2026-06-17 18:23:13,417 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-06-17 18:23:13,450 [ERROR] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: HTTP 403 - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>ERROR: The request could not be satisfied</TITLE>
+</HEAD><BODY>
+<H1>403 ERROR</H1>
+<H2>The request could 
+2026-06-17 18:23:13,451 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-06-17 18:24:13,499 [ERROR] openclaw.llm: LLM generation failed (nvidia): The read operation timed out
+2026-06-17 18:25:13,595 [ERROR] openclaw.llm: LLM generation failed (nvidia): The read operation timed out
+2026-06-17 18:26:13,704 [ERROR] openclaw.llm: LLM generation failed (nvidia): The read operation timed out
+2026-06-17 18:26:13,705 [WARNING] openclaw.llm: All LLM providers failed, using template
+2026-06-17 18:26:13,925 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 403 - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>ERROR: The request could not be satisfied</TITLE>
+</HEAD><BODY>
+<H1>403 ERROR</H1>
+<H2>The request could 
+2026-06-17 18:26:13,926 [INFO] openclaw.agent: Cycle #23 complete. Actions: 4
