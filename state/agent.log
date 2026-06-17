@@ -290,3 +290,17 @@
 <H1>403 ERROR</H1>
 <H2>The request could 
 2026-06-17 04:21:16,599 [INFO] openclaw.agent: Cycle #21 complete. Actions: 4
+2026-06-17 12:19:05,157 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #22 at 2026-06-17T12:19:05.157103+00:00 ===
+2026-06-17 12:19:05,157 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-06-17 12:19:05,157 [INFO] openclaw.agent: 📚 Task: Research - Fetching papers...
+2026-06-17 12:19:05,517 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-06-17 12:19:05,517 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-06-17 12:19:05,589 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-06-17 12:20:05,142 [INFO] openclaw.llm: LLM response from nvidia
+2026-06-17 12:20:05,300 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-06-17 12:20:05,301 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-06-17 12:20:05,536 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-06-17 12:20:05,537 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-06-17 12:20:15,561 [INFO] openclaw.llm: LLM response from nvidia
+2026-06-17 12:20:15,646 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-06-17 12:20:15,647 [INFO] openclaw.agent: Cycle #22 complete. Actions: 4
