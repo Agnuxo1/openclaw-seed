@@ -4072,3 +4072,15 @@
 2026-08-04 17:51:05,879 [INFO] openclaw.llm: LLM response from nvidia
 2026-08-04 17:51:05,933 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-08-04 17:51:05,934 [INFO] openclaw.agent: Cycle #300 complete. Actions: 4
+2026-08-04 21:13:51,872 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #301 at 2026-08-04T21:13:51.872034+00:00 ===
+2026-08-04 21:13:51,872 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-08-04 21:13:51,872 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-08-04 21:13:52,362 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-08-04 21:14:05,329 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-04 21:14:05,664 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-04 21:14:05,665 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-08-04 21:14:06,004 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-08-04 21:14:06,005 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-08-04 21:14:22,934 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-04 21:14:23,056 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-04 21:14:23,057 [INFO] openclaw.agent: Cycle #301 complete. Actions: 3
