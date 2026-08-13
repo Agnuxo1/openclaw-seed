@@ -4756,3 +4756,20 @@
 2026-08-12 20:49:37,788 [INFO] openclaw.llm: LLM response from nvidia
 2026-08-12 20:49:37,874 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-08-12 20:49:37,875 [INFO] openclaw.agent: Cycle #347 complete. Actions: 3
+2026-08-13 02:07:24,357 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #348 at 2026-08-13T02:07:24.357946+00:00 ===
+2026-08-13 02:07:24,358 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-08-13 02:07:24,358 [INFO] openclaw.agent: 📚 Task: Research - Fetching papers...
+2026-08-13 02:07:24,583 [WARNING] openclaw.research: ArXiv fetch failed: HTTP Error 429: Unknown Error, using known papers
+2026-08-13 02:07:24,585 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-08-13 02:07:24,746 [WARNING] openclaw.research: ArXiv fetch failed: HTTP Error 429: Unknown Error, using known papers
+2026-08-13 02:07:41,654 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-13 02:07:41,921 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-13 02:07:41,921 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-08-13 02:07:43,832 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-08-13 02:07:43,833 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-08-13 02:08:43,998 [ERROR] openclaw.llm: LLM generation failed (nvidia): The read operation timed out
+2026-08-13 02:08:44,065 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 403: Forbidden
+2026-08-13 02:08:44,129 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 403: Forbidden
+2026-08-13 02:08:44,130 [WARNING] openclaw.llm: All LLM providers failed, using template
+2026-08-13 02:08:44,332 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-13 02:08:44,333 [INFO] openclaw.agent: Cycle #348 complete. Actions: 4
