@@ -4893,3 +4893,17 @@
 2026-08-14 05:40:51,570 [WARNING] openclaw.llm: All LLM providers failed, using template
 2026-08-14 05:40:51,849 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-08-14 05:40:51,850 [INFO] openclaw.agent: Cycle #355 complete. Actions: 3
+2026-08-14 09:08:58,667 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #356 at 2026-08-14T09:08:58.667543+00:00 ===
+2026-08-14 09:08:58,667 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-08-14 09:08:58,667 [INFO] openclaw.agent: 📚 Task: Research - Fetching papers...
+2026-08-14 09:08:58,893 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-08-14 09:08:58,894 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-08-14 09:08:58,930 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-08-14 09:09:09,949 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-14 09:09:10,294 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-14 09:09:10,295 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-08-14 09:09:10,636 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-08-14 09:09:10,636 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-08-14 09:09:26,207 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-14 09:09:26,425 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-14 09:09:26,425 [INFO] openclaw.agent: Cycle #356 complete. Actions: 4
