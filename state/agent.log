@@ -5061,3 +5061,18 @@
 2026-08-16 01:25:51,928 [WARNING] openclaw.llm: All LLM providers failed, using template
 2026-08-16 01:25:52,114 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-08-16 01:25:52,115 [INFO] openclaw.agent: Cycle #366 complete. Actions: 4
+2026-08-16 04:37:29,584 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #367 at 2026-08-16T04:37:29.584587+00:00 ===
+2026-08-16 04:37:29,584 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-08-16 04:37:29,584 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-08-16 04:37:29,973 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-08-16 04:38:06,446 [INFO] openclaw.llm: LLM response from nvidia
+2026-08-16 04:38:06,719 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-16 04:38:06,719 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-08-16 04:38:06,921 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-08-16 04:38:06,921 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-08-16 04:39:07,096 [ERROR] openclaw.llm: LLM generation failed (nvidia): The read operation timed out
+2026-08-16 04:39:07,247 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 403: Forbidden
+2026-08-16 04:39:07,427 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 403: Forbidden
+2026-08-16 04:39:07,428 [WARNING] openclaw.llm: All LLM providers failed, using template
+2026-08-16 04:39:07,603 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-08-16 04:39:07,604 [INFO] openclaw.agent: Cycle #367 complete. Actions: 3
