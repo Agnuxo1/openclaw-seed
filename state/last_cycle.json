@@ -1,12 +1,7 @@
 {
-  "cycle": 388,
-  "timestamp": "2026-08-19T16:33:43.392112+00:00",
+  "cycle": 389,
+  "timestamp": "2026-08-19T20:29:49.438764+00:00",
   "actions": [
-    {
-      "task": "research",
-      "status": "ok",
-      "papers_found": 12
-    },
     {
       "task": "post",
       "status": "error",
