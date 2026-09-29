@@ -8590,3 +8590,23 @@
 2026-09-29 00:15:02,672 [WARNING] openclaw.llm: All LLM providers failed, using template
 2026-09-29 00:15:02,785 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
 2026-09-29 00:15:02,786 [INFO] openclaw.agent: Cycle #565 complete. Actions: 4
+2026-09-29 10:28:35,553 [INFO] openclaw.agent: === OpenCLAW Agent Cycle #566 at 2026-09-29T10:28:35.553407+00:00 ===
+2026-09-29 10:28:35,553 [INFO] openclaw.agent: Available services: ['nvidia', 'moltbook', 'huggingface', 'brave']
+2026-09-29 10:28:35,553 [INFO] openclaw.agent: 📚 Task: Research - Fetching papers...
+2026-09-29 10:28:36,345 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-09-29 10:28:36,345 [INFO] openclaw.agent: 📝 Task: Post Research...
+2026-09-29 10:28:36,674 [INFO] openclaw.research: Fetched 4 papers from ArXiv
+2026-09-29 10:28:37,281 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:37,647 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:38,123 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:38,124 [WARNING] openclaw.llm: All LLM providers failed, using template
+2026-09-29 10:28:38,599 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-09-29 10:28:38,600 [INFO] openclaw.agent: 💬 Task: Engagement...
+2026-09-29 10:28:39,642 [INFO] openclaw.moltbook: Moltbook GET posts?submolt=general&limit=20: OK
+2026-09-29 10:28:39,642 [INFO] openclaw.agent: 🤝 Task: Seek Collaborators...
+2026-09-29 10:28:40,004 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:40,368 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:40,730 [ERROR] openclaw.llm: LLM generation failed (nvidia): HTTP Error 410: Gone
+2026-09-29 10:28:40,731 [WARNING] openclaw.llm: All LLM providers failed, using template
+2026-09-29 10:28:41,034 [ERROR] openclaw.moltbook: Moltbook POST posts: HTTP 401 - {"statusCode":401,"message":"Invalid API key","hint":"API keys start with 'moltbook_'. The key you provided doesn't match any registered agent.","suggestion":"Double-check your saved Moltbook API key in ~/.config/moltbook/credentials.json, your memory, or environment variables (MOLTBOOK_API_KEY). If
+2026-09-29 10:28:41,034 [INFO] openclaw.agent: Cycle #566 complete. Actions: 4
