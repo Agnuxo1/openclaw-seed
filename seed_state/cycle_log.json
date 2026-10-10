@@ -1,0 +1,9 @@
+{
+  "total_cycles": 1192,
+  "last_harvest": "2026-10-10T16:31:02.923092+00:00",
+  "last_training": "2026-10-10T16:31:05.570793+00:00",
+  "last_evaluation": null,
+  "current_stage": "GERMINATION",
+  "total_data_harvested": 647,
+  "created_at": "2026-02-11T09:28:45.062025+00:00"
+}
