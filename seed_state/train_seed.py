@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🌱 SEED Training Script — Auto-generated 2026-10-10T16:31:05.562653+00:00
+🌱 SEED Training Script — Auto-generated 2026-10-10T17:26:23.429934+00:00
 ===========================================================================
 This script is FULLY AUTONOMOUS. Upload it to Kaggle/Colab with your data.
 It will train, merge, and push the model to HuggingFace automatically.

@@ -1,7 +1,7 @@
 {
-  "total_cycles": 1192,
-  "last_harvest": "2026-10-10T16:31:02.923092+00:00",
-  "last_training": "2026-10-10T16:31:05.570793+00:00",
+  "total_cycles": 1193,
+  "last_harvest": "2026-10-10T17:26:21.530783+00:00",
+  "last_training": "2026-10-10T17:26:23.437069+00:00",
   "last_evaluation": null,
   "current_stage": "GERMINATION",
   "total_data_harvested": 647,
