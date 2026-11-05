@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "project": "OpenCLAW SEED — Complete Autonomous AI Ecosystem",
+  "author": "Francisco Angulo de Lafuente",
+  "orcid": "https://orcid.org/0009-0001-1634-7063",
+  "recorded_on": "2026-11-05",
+  "canonical_url": "https://github.com/Agnuxo1/openclaw-seed",
+  "attribution_basis": {
+    "owner_identity": "Public GitHub account Agnuxo1 is the repository owner; this requested name and ORCID are supplied by the owner.",
+    "main_path_history": {
+      "owner_only_paths": 63,
+      "other_author_paths": {
+        ".github/FUNDING.yml": [
+          "CAJAL Bot"
+        ]
+      },
+      "native_header_paths": 40
+    },
+    "limitation": "Git labels and profile identity support attribution but are not cryptographic proof of authorship or chain of title."
+  },
+  "license": {
+    "identifier": "Apache-2.0",
+    "source": "Pre-existing root LICENSE and GitHub SPDX metadata; the root LICENSE is unchanged.",
+    "new_license_grant": false,
+    "native_spdx_header_paths": [
+      ".env.example",
+      ".github/workflows/agent.yml",
+      ".github/workflows/p2p-alive.yml",
+      ".github/workflows/seed_growth.yml",
+      ".github/workflows/seed_train.yml",
+      ".gitignore",
+      "DEPLOYMENT_STATUS.md",
+      "Dockerfile",
+      "README.md",
+      "SETUP.md",
+      "app.py",
+      "core/__init__.py",
+      "core/agent.py",
+      "core/config.py",
+      "core/llm.py",
+      "core/strategy.py",
+      "enhanced_harvester.py",
+      "hivemind.py",
+      "main.py",
+      "p2p_connect.js",
+      "render.yaml",
+      "requirements.txt",
+      "research/__init__.py",
+      "research/arxiv_fetcher.py",
+      "research/web_scanner.py",
+      "seed/__init__.py",
+      "seed/data/__init__.py",
+      "seed/data/harvester.py",
+      "seed/evaluation/__init__.py",
+      "seed/evaluation/evaluator.py",
+      "seed/evolution/__init__.py",
+      "seed/evolution/selector.py",
+      "seed/growth_engine.py",
+      "seed/training/__init__.py",
+      "seed/training/engine.py",
+      "server.py",
+      "social/__init__.py",
+      "social/moltbook.py",
+      "tools/__init__.py",
+      "unified_llm.py"
+    ],
+    "sidecar_only_paths": [
+      "Procfile",
+      "openclaw-agent-deploy.tar.gz"
+    ],
+    "third_party_content": "No separate license or authorship claim is made for CAJAL Bot funding metadata, harvested data, GIF media, or third-party dependencies."
+  },
+  "baseline": {
+    "commit": "a24b7fbcf0283f442176af1635a592f9129376f6",
+    "manifest": "provenance-baseline.json",
+    "manifest_sha256": "7d7f4c631446cf3f5db9b784533f3a60ca1099b8286a77e6c6bacb840b5d7c7b",
+    "path_count": 64,
+    "distinctive_excerpt_hash_count": 4,
+    "archive_original_sha256": "51f0f73e1f8a3f22e6bebfec12c21d1a27dd72ec2b04685cac3ef449dee7fe2b",
+    "archive_updated_sha256": "17859da21ef2f2381bb1de9545f3229b3c9a39ec2f75187f4fddcfbc2f484bc3"
+  },
+  "deployment_archive": {
+    "path": "openclaw-agent-deploy.tar.gz",
+    "original_member_count": 22,
+    "updated_regular_member_count": 24,
+    "comment_attributed_original_members": 21,
+    "new_members": [
+      "LICENSE",
+      "CITATION.cff"
+    ],
+    "procfile": "Sidecar only; content preserved.",
+    "roundtrip": "All original regular members were verified against their exact planned content; attribution insertions are additive, other bodies remain byte-identical."
+  },
+  "auxiliary_branches": {
+    "seed-state": {
+      "head_at_recording": "51fd60f97fd46ce6b89a4ba816780065ad872c04",
+      "treatment": "Generated SEED Growth Bot outputs preserved; future maintainer metadata is emitted by the owner-history engine template. No SPDX/individual author claim.",
+      "post_recording_remote_advance": {
+        "head": "197c40f90f7a37869246f71542f142739e0bd369",
+        "parent": null,
+        "author": "SEED Growth Bot",
+        "committed_at": "2026-11-05T04:00:12Z",
+        "subject": "🌱 SEED cycle #1338 — 1558 training entries",
+        "changed_paths": [
+          "seed_data/arxiv_training.jsonl",
+          "seed_data/harvest_stats.json",
+          "seed_data/seen_hashes.json",
+          "seed_data/training_dataset.jsonl",
+          "seed_state/cycle_log.json",
+          "seed_state/last_growth_cycle.json",
+          "seed_state/seed_training.ipynb",
+          "seed_state/train_seed.py"
+        ],
+        "note": "Scheduled SEED Growth Bot update observed during review after the recorded tip; this attribution change did not write to the generated branch."
+      }
+    },
+    "state": {
+      "head_at_recording": "b5befa669cc9e3254ae881bdbe53459d38bede64",
+      "treatment": "Runtime/log/cache branch preserved unchanged; no SPDX/individual author claim."
+    }
+  },
+  "content_treatments": {
+    "main_owner_history_text_code_config": 40,
+    "root_license": "preserved byte-for-byte",
+    "funding_file": "preserved; CAJAL Bot author label retained",
+    "gif_count": 19,
+    "jsonl_data": "preserved and hash-recorded",
+    "generated_branch_outputs": "preserved; bot origin recorded"
+  },
+  "validation": {
+    "baseline_git_blobs_hashed": 64,
+    "auxiliary_tip_blobs_hashed": 79,
+    "distinctive_excerpt_hashes": 4,
+    "native_header_paths_reconstructed_from_baseline": 40,
+    "tracked_paths_changed": 41,
+    "deployment_archive_original_regular_members_roundtrip": 22,
+    "deployment_archive_added_members": [
+      "LICENSE",
+      "CITATION.cff"
+    ],
+    "deployment_archive_metadata_preserved": "PASS",
+    "cff_schema_validation": "PASS",
+    "root_python_ast_files": 27,
+    "archive_python_ast_files": 14,
+    "root_yaml_files_parsed": 5,
+    "workflow_triggers": {
+      "agent.yml": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "p2p-alive.yml": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "seed_growth.yml": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "seed_train.yml": [
+        "schedule",
+        "workflow_dispatch"
+      ]
+    },
+    "node_syntax": "PASS",
+    "high_confidence_secret_matches": 0,
+    "tests_run": false,
+    "workflows_notebooks_runtime_run": false,
+    "neurochip_twin_accessed": false,
+    "git_blob_metadata_verified": 143,
+    "git_blob_metadata_check": "PASS: path OID, byte size, and SHA-256 match raw Git objects for baseline main and auxiliary tips.",
+    "auxiliary_worktree_line_ending_note": "Auxiliary manifest hashes are computed from raw Git blob bytes, independent of Windows checkout line-ending conversion.",
+    "deployment_archive_original_manifest_members_verified": 22,
+    "deployment_archive_sha256": "17859da21ef2f2381bb1de9545f3229b3c9a39ec2f75187f4fddcfbc2f484bc3",
+    "baseline_excerpt_hashes_verified": 4,
+    "provenance_manifest_sha256": "7d7f4c631446cf3f5db9b784533f3a60ca1099b8286a77e6c6bacb840b5d7c7b",
+    "seed_state_and_state_branches_modified_by_this_change": false,
+    "seed_state_post_recording_remote_advance_observed": true,
+    "seed_state_post_recording_remote_head": "197c40f90f7a37869246f71542f142739e0bd369",
+    "provenance_manifest_digest_basis": "SHA-256 of the exact Git blob bytes from the index (LF-normalized), not the Windows CRLF worktree representation."
+  }
+}
