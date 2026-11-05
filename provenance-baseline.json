@@ -1,0 +1,1400 @@
+{
+  "schema_version": "1.0",
+  "recorded_on": "2026-11-05",
+  "repository": "https://github.com/Agnuxo1/openclaw-seed",
+  "baseline": {
+    "branch": "main",
+    "commit": "a24b7fbcf0283f442176af1635a592f9129376f6",
+    "tree": "4cdce7fe139cb8bf3867f2fe762701dc7529f2d0",
+    "method": "SHA-256 and Git blob OIDs from raw baseline Git blobs; hashes identify bytes only."
+  },
+  "main_paths": [
+    {
+      "path": ".env.example",
+      "git_blob_oid": "10d70449f564212c7529fbe25b5bebf2fbb490ea",
+      "size_bytes": 436,
+      "sha256": "5b713f4cf438b17091349a545df01aca8b8c6eb4843485fc756d66d66d91e368",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "git_blob_oid": "1af6ec3cd5e219edcd833cd01ebb2fc2b6cacd56",
+      "size_bytes": 140,
+      "sha256": "7895283560d62786e0ff0a1cc1963aaac440ce65def4965fb08206823c44a4fd",
+      "author_names": [
+        "CAJAL Bot"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": ".github/workflows/agent.yml",
+      "git_blob_oid": "01e5140cda653d193e1f808db66a0fc24c34b20b",
+      "size_bytes": 5888,
+      "sha256": "86496d20296400bcc507e4c95dc1bc8f8137210295194b119a13dd0c6a17fb34",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 5,
+      "treatment": "native_header"
+    },
+    {
+      "path": ".github/workflows/p2p-alive.yml",
+      "git_blob_oid": "c8136561fa6f7a687ae6c080526c002d1581859f",
+      "size_bytes": 699,
+      "sha256": "62932f0ee9494063aaa879828599e9b53b79f921ba92c22f4acdf34744405035",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 2,
+      "treatment": "native_header"
+    },
+    {
+      "path": ".github/workflows/seed_growth.yml",
+      "git_blob_oid": "cbfeb0592ee6179be62f9a95a51999e3e1182fca",
+      "size_bytes": 3646,
+      "sha256": "98afcc695062401fd18ae69cbcbc63bb96c801292d6059d76a33bb87d7b20108",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": ".github/workflows/seed_train.yml",
+      "git_blob_oid": "59b9502542995e0d03ecd4887a1ac438c0f90a4d",
+      "size_bytes": 4424,
+      "sha256": "5771463c134fc0a26b4d4e25659a673b831c094397b5748ebfa011dafc7c7d75",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": ".gitignore",
+      "git_blob_oid": "0915981ed97f19aa8b1a067dfa83ad36ae4140ac",
+      "size_bytes": 192,
+      "sha256": "9cc9425763d1a1ca16f43d541459d23af6a7282887342b322b39fb8db641511e",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "DEPLOYMENT_STATUS.md",
+      "git_blob_oid": "4aa3d9ec32a8379845af1b5a6645d26e0cf6888f",
+      "size_bytes": 2214,
+      "sha256": "9a073124070d40a375c019f5f66eafc3d5f4ecadb846cecbed2e538ec6ad3e9a",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "Dockerfile",
+      "git_blob_oid": "567774cf7a73bdfe1f57a0af0e89caacaffa0ae8",
+      "size_bytes": 214,
+      "sha256": "1a50c53c5c62cc1b1f9a406d900e9cb9bf475360c6c529d2c07c086af4bf207f",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_oid": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "size_bytes": 11358,
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "Procfile",
+      "git_blob_oid": "cfc62cb698b42b57fddf63e1713f350d92fc4713",
+      "size_bytes": 52,
+      "sha256": "9a3e5c1336e4955342d41f49d6a9119c790cd56ef6ea41ae5d037300cde4bb07",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "README.md",
+      "git_blob_oid": "ab76dd8fea273665a6f472ab5ad147244c1f3ad4",
+      "size_bytes": 27961,
+      "sha256": "458bd0fd05f721370698f1719021457235d45807fe3de2fa58c75f6f96ce2bbe",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 5,
+      "treatment": "native_header"
+    },
+    {
+      "path": "SETUP.md",
+      "git_blob_oid": "8c0e0fea814c31fd2e8fb4d4e61e79bde3c75c24",
+      "size_bytes": 2152,
+      "sha256": "5781eb4d61fdadd18c27c7f1e69bb7ac0a41d3b3eb1767ee8b965cc05eb6b90f",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "app.py",
+      "git_blob_oid": "2d4415c9b4d673d1f341b8788fad9f1e2dc55298",
+      "size_bytes": 8970,
+      "sha256": "dab0b6a7044675d15ecc57af778cd9a01fe2c07e83b0be6f81803477bc2f8faf",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 2,
+      "treatment": "native_header"
+    },
+    {
+      "path": "core/__init__.py",
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "core/agent.py",
+      "git_blob_oid": "fcab7792d42bb95801a39fec08339b1826738582",
+      "size_bytes": 15903,
+      "sha256": "2ee11e75059125afaa6619da4d5e693c0c4b0093941ced83bb13d76a82ed4d68",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "core/config.py",
+      "git_blob_oid": "adccdcc06616cfdc88abe75050bf2af962b4c2ec",
+      "size_bytes": 3526,
+      "sha256": "60f550fa5b364270d8788233749d3bc91d514a458494b433854f504c54c48313",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "core/llm.py",
+      "git_blob_oid": "9f6bbd8cebe72c50af96ae9f845e498aef01e8f5",
+      "size_bytes": 5558,
+      "sha256": "86a5dbf1f0990d0acbb0b33c7e00063b2558cc2bd52056a004207ad27e67ee44",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "core/strategy.py",
+      "git_blob_oid": "9a5d582dcbe546b1726a5aa7ef953b6926dfef54",
+      "size_bytes": 6483,
+      "sha256": "2756c6a177abe2acd91153d726e82214f99732944e376401fa859a6b699d9d1a",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "docs/readme/01-banner.gif",
+      "git_blob_oid": "8e73d3e6625918ccba16d0aa6204ae0934a6bc71",
+      "size_bytes": 792131,
+      "sha256": "f41cdc3ad606057f2ed43e28133628ce29936ac028b47c3507a96ba78c6559ed",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/02-lora-cycle.gif",
+      "git_blob_oid": "979a4e8ab9fb57c7116bebc9e0ec72888c1261a2",
+      "size_bytes": 729802,
+      "sha256": "ad2c3f27a903720a768696916740b9127a6fd51376941bfdc488986d4b472142",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/03-background.gif",
+      "git_blob_oid": "cd83c158316c388d60f3ff4a27dcf5219b70a428",
+      "size_bytes": 155272,
+      "sha256": "7ce332c40e5d90edc2d50c4df1edfae49353b89ee693efa11cd196450ce859e6",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/04-published-state.gif",
+      "git_blob_oid": "4ad861f8127b0d5099631cff90d3798a5a45efad",
+      "size_bytes": 479289,
+      "sha256": "2908702458598e2207ee3c59995251be3542cc280bba79a6fd0b628a6f6ff170",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/05-harvester.gif",
+      "git_blob_oid": "92d9e7a99c8ce78d8e91e0db13fe3479c7809aff",
+      "size_bytes": 636575,
+      "sha256": "9ae43e706dc9925d064c746674ad80c542f83a6b79f585295521236a38886ede",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/06-system-map.gif",
+      "git_blob_oid": "43c8225acffd867bef5e0a47bcae4c73e0000a7c",
+      "size_bytes": 928076,
+      "sha256": "cb3893a926c89a5993e753e17347c3041ecbefea103fd4ea599ef0764d84d148",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/07-schedule.gif",
+      "git_blob_oid": "349429918c0417b4d9d1ae1168760a6b36acbaa3",
+      "size_bytes": 542174,
+      "sha256": "66f8d3314b10222be153889d55eb7e52708c790b99162bee6a99c53c2b3b1cdf",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/08-live-run.gif",
+      "git_blob_oid": "eabbb368d058cbdd3aa1a8a463956a72ddf21ef9",
+      "size_bytes": 199439,
+      "sha256": "44c86a4e502dd3825aa9aa64a1ce738112acd5845988eb75451d47069f4090db",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/09-training-script.gif",
+      "git_blob_oid": "9a33405ddca6304504c25981e42b7ae0f9cf10cf",
+      "size_bytes": 938900,
+      "sha256": "ef409cf00065ce35d0e593815ba89c76dd8a049c24eb4bfd8d5a446a3dcceec7",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/10-model-ladder.gif",
+      "git_blob_oid": "42db579ca9c3542114f831f43c6b846bd5e1fc08",
+      "size_bytes": 311194,
+      "sha256": "27486aba0a8d374e252ec88fdba26c919ac74a25b43bce3574da0673ed1e818e",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/11-secrets.gif",
+      "git_blob_oid": "3592ef027dfc3643c669175e20486b896c92ecdd",
+      "size_bytes": 797423,
+      "sha256": "5a77342118bc29b67b47c8d65f714521c8eb524d223896feb21b1efa627169ef",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/12-growth-cycle.gif",
+      "git_blob_oid": "587e86db3697fb1e6ef5dc82de33d0a37b6078d8",
+      "size_bytes": 746359,
+      "sha256": "da5d24fcc71e44c3315a9b627486a81ac6641657cf77fdb3c896b0efb93c38d3",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/13-vision.gif",
+      "git_blob_oid": "0dfb2aa7d1af9acf7dcaa2b118cbd42badd04eae",
+      "size_bytes": 395368,
+      "sha256": "9adf71042f28c811de5f0d7d2155da6fd1c5839464a41274a3c19b199f697545",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/14-applications.gif",
+      "git_blob_oid": "071215ca360feed058e535859b976d83d9654117",
+      "size_bytes": 647359,
+      "sha256": "894248af2a4dcf0c4adad3c29124038adb50732ce9efcf0681a3a4d9bd3d203a",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/15-improvements.gif",
+      "git_blob_oid": "fb449282597f0314b6537ca675e9d5a5455f9b6f",
+      "size_bytes": 439430,
+      "sha256": "20e6414bf30c4ebff37534c037da957dc059379ae916ca099bbb315890e97b2b",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/16-roadmap.gif",
+      "git_blob_oid": "ef55a121b46b766357aaf2cb82f9f12cf0b43261",
+      "size_bytes": 263020,
+      "sha256": "2b3719498b2633f7329217f09182720c257f9a5fac8cdfd4153f0ab0ec64973b",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/17-observations-counter.gif",
+      "git_blob_oid": "06737771a62da8a337245e090bbeaa8f4e1dca2c",
+      "size_bytes": 343393,
+      "sha256": "0a8cbde5fe8fdff9b9bf9b3c10c2b7cdcd212e573b2915228744cec62250e173",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/18-observations-agent.gif",
+      "git_blob_oid": "527ed41d54dc728cce37c24536999c7ff06b2e7d",
+      "size_bytes": 139852,
+      "sha256": "848807987638c9604f28bb9f9c8e9aacefc28abbba188a6c5e1790748ef92066",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "docs/readme/19-ecosystem.gif",
+      "git_blob_oid": "433fd3038ee6f38d928655ad732a85c2064a2c5a",
+      "size_bytes": 540774,
+      "sha256": "47509399e8a40ba8e7359105666105c514bb2d48740934455e309201941bfe6a",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "enhanced_harvester.py",
+      "git_blob_oid": "ac983606333bbacd2427250b06bb205379c0b28f",
+      "size_bytes": 16853,
+      "sha256": "c4d56bfddcffead420217146b9977d2df952eddd6cdde160b9388c57323f8ab0",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "hivemind.py",
+      "git_blob_oid": "9891a62dc0c45978936c52dce056db13e86570b3",
+      "size_bytes": 12358,
+      "sha256": "6a9d23fc0900bae3474bb2b41af292a3450fd80ab77b602908d6d417404c803a",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "main.py",
+      "git_blob_oid": "ad813e2bfb61098ca457961649269cbe91ab9099",
+      "size_bytes": 5837,
+      "sha256": "964876124d85207d7f992af04d33399cf6b6258a2e45cacbee8fcbd079b0d4c8",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "openclaw-agent-deploy.tar.gz",
+      "git_blob_oid": "f76ac9021421d91299ffaded8624f9618db28d55",
+      "size_bytes": 24026,
+      "sha256": "51f0f73e1f8a3f22e6bebfec12c21d1a27dd72ec2b04685cac3ef449dee7fe2b",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "p2p_connect.js",
+      "git_blob_oid": "a3b19c5c755e38cbc8c8ec7bfd7bea9cece3a8d3",
+      "size_bytes": 2622,
+      "sha256": "ccd619e3f3f2f9fed88f7c36ba279c9f28e603e4c04ab531c6b793c9874b8ff8",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 6,
+      "treatment": "native_header"
+    },
+    {
+      "path": "render.yaml",
+      "git_blob_oid": "d4595bec124c1ef112614a0bc4170297f1fc16b7",
+      "size_bytes": 722,
+      "sha256": "7c1d751721a9f4ccd576d29563cae4dee75c137c1194328cfd527bfe9354f405",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_oid": "8d24d2d76f849eb7577daf371e82da8a4b0b3393",
+      "size_bytes": 26,
+      "sha256": "4d02e8f1f56eb7a73d37fd8427f53701d8841c02a8b5aa98cc1047beff70fd48",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "research/__init__.py",
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "research/arxiv_fetcher.py",
+      "git_blob_oid": "2424af59cd5fcd91a486f531cd283584feb5dff9",
+      "size_bytes": 9008,
+      "sha256": "fdad15e18f42aa56816c700ea0665d3a94482eb76e2427b28323565ab3ed2917",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "research/web_scanner.py",
+      "git_blob_oid": "214e4a08787c3ff7f55354d32a9881d5ce6b1747",
+      "size_bytes": 5355,
+      "sha256": "b0de2437be617a4f3e45ce38627db549c98d0d05490be5a58aa6683d206c33dd",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/__init__.py",
+      "git_blob_oid": "0abe8f2f78812fd178d5b48d1d08b44256f87fe2",
+      "size_bytes": 1064,
+      "sha256": "622c94678252f70930acc38d628d1e016a5c8be959aa95be87ef53a03658ab15",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/data/__init__.py",
+      "git_blob_oid": "9e508d5e6c181299df52fb3bb6f2fa6d23456904",
+      "size_bytes": 37,
+      "sha256": "a0333ee98a3a4ef0e87d6e735b9582ed097d64c258488741b02000ba2f69d1f2",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/data/harvester.py",
+      "git_blob_oid": "f2f8baa45b4d0adda9abfe2b569535b9081db5a5",
+      "size_bytes": 18907,
+      "sha256": "b1830f1c7fff036ec9c0f02af9b5082d7eed982c3f4c451ca4fdbce2553ca1c9",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 3,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/evaluation/__init__.py",
+      "git_blob_oid": "6d2b4f7933aa73ca717712d514c0f7324b81847c",
+      "size_bytes": 23,
+      "sha256": "3c3aec44783dffb61976fcbae2ac53a076c5297d5036ed7ef652ed4710abffba",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/evaluation/evaluator.py",
+      "git_blob_oid": "2d053b5c81625fbe79e52dd5186f3a7aeb44c150",
+      "size_bytes": 9343,
+      "sha256": "167a66040bc7450404975fb6f40b61a678e7c9444b18d4b9eb57cf1e5bb243b6",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/evolution/__init__.py",
+      "git_blob_oid": "7a01062af5d1de21e8b62f52686fb1db4b601949",
+      "size_bytes": 38,
+      "sha256": "522cbbde8f94d2ab9c9f65c4d797a70e0f786a43fa55806d1063f25b14c3a66f",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/evolution/selector.py",
+      "git_blob_oid": "449c6baccdc94b260d01497f5b8da6cbc4d3087c",
+      "size_bytes": 8675,
+      "sha256": "4c2f7f9c28bae77847173db8c1fe06b208dca39a0c0d4195bcea5beb6f64036d",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/growth_engine.py",
+      "git_blob_oid": "3bb3929f34e304d05eb9ccf71a22a154871b9b32",
+      "size_bytes": 12891,
+      "sha256": "4d36973f10a813dfe0d599f8ba6ac1ee3d253d4602015a0b372e2718446ba0c0",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/training/__init__.py",
+      "git_blob_oid": "8f75ffd1f60eb748e91e21f4890e28778b50112d",
+      "size_bytes": 35,
+      "sha256": "93e7e00c45495987eabf73cbcde09218192fc5ccacbfcd74a04ae2bd4ee1673c",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed/training/engine.py",
+      "git_blob_oid": "47a741431198ff9b0a561aa77b8da3359975c86a",
+      "size_bytes": 22361,
+      "sha256": "982e280e33808407eaaa1370df69c9963b3a3727d33a571fe4d05b12b70a9332",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "seed_data/bootstrap_knowledge.jsonl",
+      "git_blob_oid": "f7f09aeeb7f9dbff6afc9a1fb4226a8cfbcf6848",
+      "size_bytes": 11949,
+      "sha256": "87a43568fd540b11aead27cad434768a489f8e41220a5e49716acb16cc7cad3f",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "sidecar_or_preserved"
+    },
+    {
+      "path": "server.py",
+      "git_blob_oid": "82ec9aa3da25a78a367ba0f7ae30cc31ec46f3b9",
+      "size_bytes": 5527,
+      "sha256": "0c962dec11fed01e8940e6860387329ce00d2c0553fe9820e96b36b2d9b05d6d",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "social/__init__.py",
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "social/moltbook.py",
+      "git_blob_oid": "b314e129c75645f59053696b005125e51ca980e7",
+      "size_bytes": 9218,
+      "sha256": "c6f5ef78871d31d95a22ddce8b693962b635a1da1a3445f583a15d63fd9640ec",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "tools/__init__.py",
+      "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    },
+    {
+      "path": "unified_llm.py",
+      "git_blob_oid": "5cc8e94963608fb8c7fa8c7c50a5918f2000354a",
+      "size_bytes": 14930,
+      "sha256": "ba2996448c6acc056926515a89137b7d22339b3595d29e77b65b2ef4b798a5a1",
+      "author_names": [
+        "Francisco Angulo de Lafuente"
+      ],
+      "history_commit_count": 1,
+      "treatment": "native_header"
+    }
+  ],
+  "deployment_archive": {
+    "path": "openclaw-agent-deploy.tar.gz",
+    "original_sha256": "51f0f73e1f8a3f22e6bebfec12c21d1a27dd72ec2b04685cac3ef449dee7fe2b",
+    "updated_sha256": "17859da21ef2f2381bb1de9545f3229b3c9a39ec2f75187f4fddcfbc2f484bc3",
+    "original_member_count": 22,
+    "updated_regular_member_count": 24,
+    "comment_attributed_original_members": 21,
+    "new_members": [
+      "LICENSE",
+      "CITATION.cff"
+    ],
+    "members": [
+      {
+        "path": "tools/__init__.py",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "social/__init__.py",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "social/moltbook.py",
+        "size": 9218,
+        "sha256": "c6f5ef78871d31d95a22ddce8b693962b635a1da1a3445f583a15d63fd9640ec",
+        "git_blob_oid": "b314e129c75645f59053696b005125e51ca980e7"
+      },
+      {
+        "path": ".github/workflows/agent.yml",
+        "size": 2264,
+        "sha256": "164cd22fffade2fcc342ddebd77730d1e18ca6a3ac828d94bc91f4b3041bde7b",
+        "git_blob_oid": "13bdaf6004c6fe20a736ab336b3c18ad08fd3eba"
+      },
+      {
+        "path": "app.py",
+        "size": 7385,
+        "sha256": "086c7a2b7d02f1c3973a4346ff2cdd6f75f562a25c4c4927a79f5503285bdd99",
+        "git_blob_oid": "85b3b3c5b37050c82ffbf69eca1915c5beb988a5"
+      },
+      {
+        "path": "README.md",
+        "size": 6616,
+        "sha256": "05560f93adbb268609f2c8b1f656e231df412e380de26ab2a5b06be35e60c392",
+        "git_blob_oid": "0648952a8cd5836cd4351090c32dd309075614d2"
+      },
+      {
+        "path": "research/__init__.py",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "research/web_scanner.py",
+        "size": 5355,
+        "sha256": "b0de2437be617a4f3e45ce38627db549c98d0d05490be5a58aa6683d206c33dd",
+        "git_blob_oid": "214e4a08787c3ff7f55354d32a9881d5ce6b1747"
+      },
+      {
+        "path": "research/arxiv_fetcher.py",
+        "size": 9008,
+        "sha256": "fdad15e18f42aa56816c700ea0665d3a94482eb76e2427b28323565ab3ed2917",
+        "git_blob_oid": "2424af59cd5fcd91a486f531cd283584feb5dff9"
+      },
+      {
+        "path": "core/config.py",
+        "size": 3526,
+        "sha256": "60f550fa5b364270d8788233749d3bc91d514a458494b433854f504c54c48313",
+        "git_blob_oid": "adccdcc06616cfdc88abe75050bf2af962b4c2ec"
+      },
+      {
+        "path": "core/__init__.py",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "core/strategy.py",
+        "size": 6483,
+        "sha256": "2756c6a177abe2acd91153d726e82214f99732944e376401fa859a6b699d9d1a",
+        "git_blob_oid": "9a5d582dcbe546b1726a5aa7ef953b6926dfef54"
+      },
+      {
+        "path": "core/llm.py",
+        "size": 5558,
+        "sha256": "86a5dbf1f0990d0acbb0b33c7e00063b2558cc2bd52056a004207ad27e67ee44",
+        "git_blob_oid": "9f6bbd8cebe72c50af96ae9f845e498aef01e8f5"
+      },
+      {
+        "path": "core/agent.py",
+        "size": 15903,
+        "sha256": "2ee11e75059125afaa6619da4d5e693c0c4b0093941ced83bb13d76a82ed4d68",
+        "git_blob_oid": "fcab7792d42bb95801a39fec08339b1826738582"
+      },
+      {
+        "path": "Procfile",
+        "size": 52,
+        "sha256": "9a3e5c1336e4955342d41f49d6a9119c790cd56ef6ea41ae5d037300cde4bb07",
+        "git_blob_oid": "cfc62cb698b42b57fddf63e1713f350d92fc4713"
+      },
+      {
+        "path": "Dockerfile",
+        "size": 214,
+        "sha256": "1a50c53c5c62cc1b1f9a406d900e9cb9bf475360c6c529d2c07c086af4bf207f",
+        "git_blob_oid": "567774cf7a73bdfe1f57a0af0e89caacaffa0ae8"
+      },
+      {
+        "path": "main.py",
+        "size": 5837,
+        "sha256": "964876124d85207d7f992af04d33399cf6b6258a2e45cacbee8fcbd079b0d4c8",
+        "git_blob_oid": "ad813e2bfb61098ca457961649269cbe91ab9099"
+      },
+      {
+        "path": ".env.example",
+        "size": 436,
+        "sha256": "5b713f4cf438b17091349a545df01aca8b8c6eb4843485fc756d66d66d91e368",
+        "git_blob_oid": "10d70449f564212c7529fbe25b5bebf2fbb490ea"
+      },
+      {
+        "path": "render.yaml",
+        "size": 722,
+        "sha256": "7c1d751721a9f4ccd576d29563cae4dee75c137c1194328cfd527bfe9354f405",
+        "git_blob_oid": "d4595bec124c1ef112614a0bc4170297f1fc16b7"
+      },
+      {
+        "path": ".gitignore",
+        "size": 192,
+        "sha256": "9cc9425763d1a1ca16f43d541459d23af6a7282887342b322b39fb8db641511e",
+        "git_blob_oid": "0915981ed97f19aa8b1a067dfa83ad36ae4140ac"
+      },
+      {
+        "path": "requirements.txt",
+        "size": 26,
+        "sha256": "4d02e8f1f56eb7a73d37fd8427f53701d8841c02a8b5aa98cc1047beff70fd48",
+        "git_blob_oid": "8d24d2d76f849eb7577daf371e82da8a4b0b3393"
+      },
+      {
+        "path": "server.py",
+        "size": 5527,
+        "sha256": "0c962dec11fed01e8940e6860387329ce00d2c0553fe9820e96b36b2d9b05d6d",
+        "git_blob_oid": "82ec9aa3da25a78a367ba0f7ae30cc31ec46f3b9"
+      }
+    ]
+  },
+  "auxiliary_branch_tips": [
+    {
+      "branch": "origin/main",
+      "head": "a24b7fbcf0283f442176af1635a592f9129376f6",
+      "commit_count": 88,
+      "commit_author_name_counts": {
+        "CAJAL Bot": 1,
+        "Francisco Angulo de Lafuente": 87
+      },
+      "file_count": 64,
+      "files": [
+        {
+          "path": ".env.example",
+          "git_blob_oid": "10d70449f564212c7529fbe25b5bebf2fbb490ea",
+          "size_bytes": 436,
+          "sha256": "5b713f4cf438b17091349a545df01aca8b8c6eb4843485fc756d66d66d91e368"
+        },
+        {
+          "path": ".github/FUNDING.yml",
+          "git_blob_oid": "1af6ec3cd5e219edcd833cd01ebb2fc2b6cacd56",
+          "size_bytes": 140,
+          "sha256": "7895283560d62786e0ff0a1cc1963aaac440ce65def4965fb08206823c44a4fd"
+        },
+        {
+          "path": ".github/workflows/agent.yml",
+          "git_blob_oid": "01e5140cda653d193e1f808db66a0fc24c34b20b",
+          "size_bytes": 5888,
+          "sha256": "86496d20296400bcc507e4c95dc1bc8f8137210295194b119a13dd0c6a17fb34"
+        },
+        {
+          "path": ".github/workflows/p2p-alive.yml",
+          "git_blob_oid": "c8136561fa6f7a687ae6c080526c002d1581859f",
+          "size_bytes": 699,
+          "sha256": "62932f0ee9494063aaa879828599e9b53b79f921ba92c22f4acdf34744405035"
+        },
+        {
+          "path": ".github/workflows/seed_growth.yml",
+          "git_blob_oid": "cbfeb0592ee6179be62f9a95a51999e3e1182fca",
+          "size_bytes": 3646,
+          "sha256": "98afcc695062401fd18ae69cbcbc63bb96c801292d6059d76a33bb87d7b20108"
+        },
+        {
+          "path": ".github/workflows/seed_train.yml",
+          "git_blob_oid": "59b9502542995e0d03ecd4887a1ac438c0f90a4d",
+          "size_bytes": 4424,
+          "sha256": "5771463c134fc0a26b4d4e25659a673b831c094397b5748ebfa011dafc7c7d75"
+        },
+        {
+          "path": ".gitignore",
+          "git_blob_oid": "0915981ed97f19aa8b1a067dfa83ad36ae4140ac",
+          "size_bytes": 192,
+          "sha256": "9cc9425763d1a1ca16f43d541459d23af6a7282887342b322b39fb8db641511e"
+        },
+        {
+          "path": "DEPLOYMENT_STATUS.md",
+          "git_blob_oid": "4aa3d9ec32a8379845af1b5a6645d26e0cf6888f",
+          "size_bytes": 2214,
+          "sha256": "9a073124070d40a375c019f5f66eafc3d5f4ecadb846cecbed2e538ec6ad3e9a"
+        },
+        {
+          "path": "Dockerfile",
+          "git_blob_oid": "567774cf7a73bdfe1f57a0af0e89caacaffa0ae8",
+          "size_bytes": 214,
+          "sha256": "1a50c53c5c62cc1b1f9a406d900e9cb9bf475360c6c529d2c07c086af4bf207f"
+        },
+        {
+          "path": "LICENSE",
+          "git_blob_oid": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "size_bytes": 11358,
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "path": "Procfile",
+          "git_blob_oid": "cfc62cb698b42b57fddf63e1713f350d92fc4713",
+          "size_bytes": 52,
+          "sha256": "9a3e5c1336e4955342d41f49d6a9119c790cd56ef6ea41ae5d037300cde4bb07"
+        },
+        {
+          "path": "README.md",
+          "git_blob_oid": "ab76dd8fea273665a6f472ab5ad147244c1f3ad4",
+          "size_bytes": 27961,
+          "sha256": "458bd0fd05f721370698f1719021457235d45807fe3de2fa58c75f6f96ce2bbe"
+        },
+        {
+          "path": "SETUP.md",
+          "git_blob_oid": "8c0e0fea814c31fd2e8fb4d4e61e79bde3c75c24",
+          "size_bytes": 2152,
+          "sha256": "5781eb4d61fdadd18c27c7f1e69bb7ac0a41d3b3eb1767ee8b965cc05eb6b90f"
+        },
+        {
+          "path": "app.py",
+          "git_blob_oid": "2d4415c9b4d673d1f341b8788fad9f1e2dc55298",
+          "size_bytes": 8970,
+          "sha256": "dab0b6a7044675d15ecc57af778cd9a01fe2c07e83b0be6f81803477bc2f8faf"
+        },
+        {
+          "path": "core/__init__.py",
+          "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "core/agent.py",
+          "git_blob_oid": "fcab7792d42bb95801a39fec08339b1826738582",
+          "size_bytes": 15903,
+          "sha256": "2ee11e75059125afaa6619da4d5e693c0c4b0093941ced83bb13d76a82ed4d68"
+        },
+        {
+          "path": "core/config.py",
+          "git_blob_oid": "adccdcc06616cfdc88abe75050bf2af962b4c2ec",
+          "size_bytes": 3526,
+          "sha256": "60f550fa5b364270d8788233749d3bc91d514a458494b433854f504c54c48313"
+        },
+        {
+          "path": "core/llm.py",
+          "git_blob_oid": "9f6bbd8cebe72c50af96ae9f845e498aef01e8f5",
+          "size_bytes": 5558,
+          "sha256": "86a5dbf1f0990d0acbb0b33c7e00063b2558cc2bd52056a004207ad27e67ee44"
+        },
+        {
+          "path": "core/strategy.py",
+          "git_blob_oid": "9a5d582dcbe546b1726a5aa7ef953b6926dfef54",
+          "size_bytes": 6483,
+          "sha256": "2756c6a177abe2acd91153d726e82214f99732944e376401fa859a6b699d9d1a"
+        },
+        {
+          "path": "docs/readme/01-banner.gif",
+          "git_blob_oid": "8e73d3e6625918ccba16d0aa6204ae0934a6bc71",
+          "size_bytes": 792131,
+          "sha256": "f41cdc3ad606057f2ed43e28133628ce29936ac028b47c3507a96ba78c6559ed"
+        },
+        {
+          "path": "docs/readme/02-lora-cycle.gif",
+          "git_blob_oid": "979a4e8ab9fb57c7116bebc9e0ec72888c1261a2",
+          "size_bytes": 729802,
+          "sha256": "ad2c3f27a903720a768696916740b9127a6fd51376941bfdc488986d4b472142"
+        },
+        {
+          "path": "docs/readme/03-background.gif",
+          "git_blob_oid": "cd83c158316c388d60f3ff4a27dcf5219b70a428",
+          "size_bytes": 155272,
+          "sha256": "7ce332c40e5d90edc2d50c4df1edfae49353b89ee693efa11cd196450ce859e6"
+        },
+        {
+          "path": "docs/readme/04-published-state.gif",
+          "git_blob_oid": "4ad861f8127b0d5099631cff90d3798a5a45efad",
+          "size_bytes": 479289,
+          "sha256": "2908702458598e2207ee3c59995251be3542cc280bba79a6fd0b628a6f6ff170"
+        },
+        {
+          "path": "docs/readme/05-harvester.gif",
+          "git_blob_oid": "92d9e7a99c8ce78d8e91e0db13fe3479c7809aff",
+          "size_bytes": 636575,
+          "sha256": "9ae43e706dc9925d064c746674ad80c542f83a6b79f585295521236a38886ede"
+        },
+        {
+          "path": "docs/readme/06-system-map.gif",
+          "git_blob_oid": "43c8225acffd867bef5e0a47bcae4c73e0000a7c",
+          "size_bytes": 928076,
+          "sha256": "cb3893a926c89a5993e753e17347c3041ecbefea103fd4ea599ef0764d84d148"
+        },
+        {
+          "path": "docs/readme/07-schedule.gif",
+          "git_blob_oid": "349429918c0417b4d9d1ae1168760a6b36acbaa3",
+          "size_bytes": 542174,
+          "sha256": "66f8d3314b10222be153889d55eb7e52708c790b99162bee6a99c53c2b3b1cdf"
+        },
+        {
+          "path": "docs/readme/08-live-run.gif",
+          "git_blob_oid": "eabbb368d058cbdd3aa1a8a463956a72ddf21ef9",
+          "size_bytes": 199439,
+          "sha256": "44c86a4e502dd3825aa9aa64a1ce738112acd5845988eb75451d47069f4090db"
+        },
+        {
+          "path": "docs/readme/09-training-script.gif",
+          "git_blob_oid": "9a33405ddca6304504c25981e42b7ae0f9cf10cf",
+          "size_bytes": 938900,
+          "sha256": "ef409cf00065ce35d0e593815ba89c76dd8a049c24eb4bfd8d5a446a3dcceec7"
+        },
+        {
+          "path": "docs/readme/10-model-ladder.gif",
+          "git_blob_oid": "42db579ca9c3542114f831f43c6b846bd5e1fc08",
+          "size_bytes": 311194,
+          "sha256": "27486aba0a8d374e252ec88fdba26c919ac74a25b43bce3574da0673ed1e818e"
+        },
+        {
+          "path": "docs/readme/11-secrets.gif",
+          "git_blob_oid": "3592ef027dfc3643c669175e20486b896c92ecdd",
+          "size_bytes": 797423,
+          "sha256": "5a77342118bc29b67b47c8d65f714521c8eb524d223896feb21b1efa627169ef"
+        },
+        {
+          "path": "docs/readme/12-growth-cycle.gif",
+          "git_blob_oid": "587e86db3697fb1e6ef5dc82de33d0a37b6078d8",
+          "size_bytes": 746359,
+          "sha256": "da5d24fcc71e44c3315a9b627486a81ac6641657cf77fdb3c896b0efb93c38d3"
+        },
+        {
+          "path": "docs/readme/13-vision.gif",
+          "git_blob_oid": "0dfb2aa7d1af9acf7dcaa2b118cbd42badd04eae",
+          "size_bytes": 395368,
+          "sha256": "9adf71042f28c811de5f0d7d2155da6fd1c5839464a41274a3c19b199f697545"
+        },
+        {
+          "path": "docs/readme/14-applications.gif",
+          "git_blob_oid": "071215ca360feed058e535859b976d83d9654117",
+          "size_bytes": 647359,
+          "sha256": "894248af2a4dcf0c4adad3c29124038adb50732ce9efcf0681a3a4d9bd3d203a"
+        },
+        {
+          "path": "docs/readme/15-improvements.gif",
+          "git_blob_oid": "fb449282597f0314b6537ca675e9d5a5455f9b6f",
+          "size_bytes": 439430,
+          "sha256": "20e6414bf30c4ebff37534c037da957dc059379ae916ca099bbb315890e97b2b"
+        },
+        {
+          "path": "docs/readme/16-roadmap.gif",
+          "git_blob_oid": "ef55a121b46b766357aaf2cb82f9f12cf0b43261",
+          "size_bytes": 263020,
+          "sha256": "2b3719498b2633f7329217f09182720c257f9a5fac8cdfd4153f0ab0ec64973b"
+        },
+        {
+          "path": "docs/readme/17-observations-counter.gif",
+          "git_blob_oid": "06737771a62da8a337245e090bbeaa8f4e1dca2c",
+          "size_bytes": 343393,
+          "sha256": "0a8cbde5fe8fdff9b9bf9b3c10c2b7cdcd212e573b2915228744cec62250e173"
+        },
+        {
+          "path": "docs/readme/18-observations-agent.gif",
+          "git_blob_oid": "527ed41d54dc728cce37c24536999c7ff06b2e7d",
+          "size_bytes": 139852,
+          "sha256": "848807987638c9604f28bb9f9c8e9aacefc28abbba188a6c5e1790748ef92066"
+        },
+        {
+          "path": "docs/readme/19-ecosystem.gif",
+          "git_blob_oid": "433fd3038ee6f38d928655ad732a85c2064a2c5a",
+          "size_bytes": 540774,
+          "sha256": "47509399e8a40ba8e7359105666105c514bb2d48740934455e309201941bfe6a"
+        },
+        {
+          "path": "enhanced_harvester.py",
+          "git_blob_oid": "ac983606333bbacd2427250b06bb205379c0b28f",
+          "size_bytes": 16853,
+          "sha256": "c4d56bfddcffead420217146b9977d2df952eddd6cdde160b9388c57323f8ab0"
+        },
+        {
+          "path": "hivemind.py",
+          "git_blob_oid": "9891a62dc0c45978936c52dce056db13e86570b3",
+          "size_bytes": 12358,
+          "sha256": "6a9d23fc0900bae3474bb2b41af292a3450fd80ab77b602908d6d417404c803a"
+        },
+        {
+          "path": "main.py",
+          "git_blob_oid": "ad813e2bfb61098ca457961649269cbe91ab9099",
+          "size_bytes": 5837,
+          "sha256": "964876124d85207d7f992af04d33399cf6b6258a2e45cacbee8fcbd079b0d4c8"
+        },
+        {
+          "path": "openclaw-agent-deploy.tar.gz",
+          "git_blob_oid": "f76ac9021421d91299ffaded8624f9618db28d55",
+          "size_bytes": 24026,
+          "sha256": "51f0f73e1f8a3f22e6bebfec12c21d1a27dd72ec2b04685cac3ef449dee7fe2b"
+        },
+        {
+          "path": "p2p_connect.js",
+          "git_blob_oid": "a3b19c5c755e38cbc8c8ec7bfd7bea9cece3a8d3",
+          "size_bytes": 2622,
+          "sha256": "ccd619e3f3f2f9fed88f7c36ba279c9f28e603e4c04ab531c6b793c9874b8ff8"
+        },
+        {
+          "path": "render.yaml",
+          "git_blob_oid": "d4595bec124c1ef112614a0bc4170297f1fc16b7",
+          "size_bytes": 722,
+          "sha256": "7c1d751721a9f4ccd576d29563cae4dee75c137c1194328cfd527bfe9354f405"
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_oid": "8d24d2d76f849eb7577daf371e82da8a4b0b3393",
+          "size_bytes": 26,
+          "sha256": "4d02e8f1f56eb7a73d37fd8427f53701d8841c02a8b5aa98cc1047beff70fd48"
+        },
+        {
+          "path": "research/__init__.py",
+          "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "research/arxiv_fetcher.py",
+          "git_blob_oid": "2424af59cd5fcd91a486f531cd283584feb5dff9",
+          "size_bytes": 9008,
+          "sha256": "fdad15e18f42aa56816c700ea0665d3a94482eb76e2427b28323565ab3ed2917"
+        },
+        {
+          "path": "research/web_scanner.py",
+          "git_blob_oid": "214e4a08787c3ff7f55354d32a9881d5ce6b1747",
+          "size_bytes": 5355,
+          "sha256": "b0de2437be617a4f3e45ce38627db549c98d0d05490be5a58aa6683d206c33dd"
+        },
+        {
+          "path": "seed/__init__.py",
+          "git_blob_oid": "0abe8f2f78812fd178d5b48d1d08b44256f87fe2",
+          "size_bytes": 1064,
+          "sha256": "622c94678252f70930acc38d628d1e016a5c8be959aa95be87ef53a03658ab15"
+        },
+        {
+          "path": "seed/data/__init__.py",
+          "git_blob_oid": "9e508d5e6c181299df52fb3bb6f2fa6d23456904",
+          "size_bytes": 37,
+          "sha256": "a0333ee98a3a4ef0e87d6e735b9582ed097d64c258488741b02000ba2f69d1f2"
+        },
+        {
+          "path": "seed/data/harvester.py",
+          "git_blob_oid": "f2f8baa45b4d0adda9abfe2b569535b9081db5a5",
+          "size_bytes": 18907,
+          "sha256": "b1830f1c7fff036ec9c0f02af9b5082d7eed982c3f4c451ca4fdbce2553ca1c9"
+        },
+        {
+          "path": "seed/evaluation/__init__.py",
+          "git_blob_oid": "6d2b4f7933aa73ca717712d514c0f7324b81847c",
+          "size_bytes": 23,
+          "sha256": "3c3aec44783dffb61976fcbae2ac53a076c5297d5036ed7ef652ed4710abffba"
+        },
+        {
+          "path": "seed/evaluation/evaluator.py",
+          "git_blob_oid": "2d053b5c81625fbe79e52dd5186f3a7aeb44c150",
+          "size_bytes": 9343,
+          "sha256": "167a66040bc7450404975fb6f40b61a678e7c9444b18d4b9eb57cf1e5bb243b6"
+        },
+        {
+          "path": "seed/evolution/__init__.py",
+          "git_blob_oid": "7a01062af5d1de21e8b62f52686fb1db4b601949",
+          "size_bytes": 38,
+          "sha256": "522cbbde8f94d2ab9c9f65c4d797a70e0f786a43fa55806d1063f25b14c3a66f"
+        },
+        {
+          "path": "seed/evolution/selector.py",
+          "git_blob_oid": "449c6baccdc94b260d01497f5b8da6cbc4d3087c",
+          "size_bytes": 8675,
+          "sha256": "4c2f7f9c28bae77847173db8c1fe06b208dca39a0c0d4195bcea5beb6f64036d"
+        },
+        {
+          "path": "seed/growth_engine.py",
+          "git_blob_oid": "3bb3929f34e304d05eb9ccf71a22a154871b9b32",
+          "size_bytes": 12891,
+          "sha256": "4d36973f10a813dfe0d599f8ba6ac1ee3d253d4602015a0b372e2718446ba0c0"
+        },
+        {
+          "path": "seed/training/__init__.py",
+          "git_blob_oid": "8f75ffd1f60eb748e91e21f4890e28778b50112d",
+          "size_bytes": 35,
+          "sha256": "93e7e00c45495987eabf73cbcde09218192fc5ccacbfcd74a04ae2bd4ee1673c"
+        },
+        {
+          "path": "seed/training/engine.py",
+          "git_blob_oid": "47a741431198ff9b0a561aa77b8da3359975c86a",
+          "size_bytes": 22361,
+          "sha256": "982e280e33808407eaaa1370df69c9963b3a3727d33a571fe4d05b12b70a9332"
+        },
+        {
+          "path": "seed_data/bootstrap_knowledge.jsonl",
+          "git_blob_oid": "f7f09aeeb7f9dbff6afc9a1fb4226a8cfbcf6848",
+          "size_bytes": 11949,
+          "sha256": "87a43568fd540b11aead27cad434768a489f8e41220a5e49716acb16cc7cad3f"
+        },
+        {
+          "path": "server.py",
+          "git_blob_oid": "82ec9aa3da25a78a367ba0f7ae30cc31ec46f3b9",
+          "size_bytes": 5527,
+          "sha256": "0c962dec11fed01e8940e6860387329ce00d2c0553fe9820e96b36b2d9b05d6d"
+        },
+        {
+          "path": "social/__init__.py",
+          "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "social/moltbook.py",
+          "git_blob_oid": "b314e129c75645f59053696b005125e51ca980e7",
+          "size_bytes": 9218,
+          "sha256": "c6f5ef78871d31d95a22ddce8b693962b635a1da1a3445f583a15d63fd9640ec"
+        },
+        {
+          "path": "tools/__init__.py",
+          "git_blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "unified_llm.py",
+          "git_blob_oid": "5cc8e94963608fb8c7fa8c7c50a5918f2000354a",
+          "size_bytes": 14930,
+          "sha256": "ba2996448c6acc056926515a89137b7d22339b3595d29e77b65b2ef4b798a5a1"
+        }
+      ]
+    },
+    {
+      "branch": "origin/seed-state",
+      "head": "51fd60f97fd46ce6b89a4ba816780065ad872c04",
+      "commit_count": 1,
+      "commit_author_name_counts": {
+        "SEED Growth Bot": 1
+      },
+      "file_count": 11,
+      "files": [
+        {
+          "path": "seed_data/arxiv_training.jsonl",
+          "git_blob_oid": "1f5c67abd1c1a1350b5c592167b53f25764a65c0",
+          "size_bytes": 516751,
+          "sha256": "a168bc8b00aa393b672848f53118146347ff4e8c49499f6430065693ca4eda46"
+        },
+        {
+          "path": "seed_data/bootstrap_knowledge.jsonl",
+          "git_blob_oid": "f7f09aeeb7f9dbff6afc9a1fb4226a8cfbcf6848",
+          "size_bytes": 11949,
+          "sha256": "87a43568fd540b11aead27cad434768a489f8e41220a5e49716acb16cc7cad3f"
+        },
+        {
+          "path": "seed_data/harvest_stats.json",
+          "git_blob_oid": "bfc0cca334693328ca91216c90ae4ed27e2e59e2",
+          "size_bytes": 146,
+          "sha256": "80de8af441bac4c7671652b16ea9a2efac553f67cfcb69ed4dc9b7907852dc8f"
+        },
+        {
+          "path": "seed_data/own_research.jsonl",
+          "git_blob_oid": "5747e391923e2e46b7967b4d73a0668b8498bc5f",
+          "size_bytes": 130733,
+          "sha256": "a2e170ebd06633ad16e8cebbf075c005fcae10b53c3bdd7e2783cf2557e8fe7a"
+        },
+        {
+          "path": "seed_data/seen_hashes.json",
+          "git_blob_oid": "cc58f44726b17780cc88b7f68f128be6714287d5",
+          "size_bytes": 16596,
+          "sha256": "b0ef1b2cdcf94cffc7119369c307d33615f8b331c1f565fcf213d01d2f1359b7"
+        },
+        {
+          "path": "seed_data/semantic_scholar.jsonl",
+          "git_blob_oid": "041407f584f007abe9291b9d7ec41f304b541917",
+          "size_bytes": 85881,
+          "sha256": "c2daf9eb6a679c24055faeb95c1cc262c7b149f9253ea936b022266a3b080bd9"
+        },
+        {
+          "path": "seed_data/training_dataset.jsonl",
+          "git_blob_oid": "2cae181520487d7d2cc054400c15aca6c28e68d1",
+          "size_bytes": 705754,
+          "sha256": "e0176bd4b7e9ea3f8cb0c1e2ec6029b0e2942d7b9798a251382c393e9f82520c"
+        },
+        {
+          "path": "seed_state/cycle_log.json",
+          "git_blob_oid": "c23f6bfb7051bf0e45518fa0e549b413a69265df",
+          "size_bytes": 279,
+          "sha256": "f51963b1993555bef57fd2041ddd8d019702310749772804bc85d42475abdaa2"
+        },
+        {
+          "path": "seed_state/last_growth_cycle.json",
+          "git_blob_oid": "9dab8f7a2dce1143b51936c47234dd42512daa34",
+          "size_bytes": 1670,
+          "sha256": "0cd850e77f9e6e9fbfc51c0d74052df2e4a1094823cf2f43b6d973754ef8760e"
+        },
+        {
+          "path": "seed_state/seed_training.ipynb",
+          "git_blob_oid": "a66a31a995d70720e0a5d69704488f6c98905d13",
+          "size_bytes": 13713,
+          "sha256": "5f159db1ee6d3ba297f5180f93aaf4c4188455ec2dd30ca842bd73cf43feef7f"
+        },
+        {
+          "path": "seed_state/train_seed.py",
+          "git_blob_oid": "3e8aaef93dec58840c6309c201704cbef42e1aa8",
+          "size_bytes": 8097,
+          "sha256": "dc01de3dbf2adca1a5570ca95a8d2f8d499616e99f2dd448959783d48be43253"
+        }
+      ]
+    },
+    {
+      "branch": "origin/state",
+      "head": "b5befa669cc9e3254ae881bdbe53459d38bede64",
+      "commit_count": 697,
+      "commit_author_name_counts": {
+        "OpenCLAW Agent": 1,
+        "OpenCLAW Bot": 696
+      },
+      "file_count": 4,
+      "files": [
+        {
+          "path": "state/agent.log",
+          "git_blob_oid": "72e83a7d5f64fc1a24d8de0430af79f031ac1ba8",
+          "size_bytes": 1410903,
+          "sha256": "1806cf35e91576f0e4a45af3132dd7bd7d122e915ac6bc31b711c3d584aff95b"
+        },
+        {
+          "path": "state/agent_state.json",
+          "git_blob_oid": "9cafb91359cfd776cea332261468f260fab78174",
+          "size_bytes": 313,
+          "sha256": "6a2f02eed1af260dd0289e6472c0dcf21bf6754d578d442c32ec9fa236897f84"
+        },
+        {
+          "path": "state/last_cycle.json",
+          "git_blob_oid": "9a20ed250252905a156877f459e2e5db85aead37",
+          "size_bytes": 346,
+          "sha256": "8943e5bab83f65d5ca8c5f6c8c6b31dc9de2265a263c80bb6f6206d8d690c1e2"
+        },
+        {
+          "path": "state/papers_cache.json",
+          "git_blob_oid": "b841ad0101d60848b99059ca92bcd9cd561948f2",
+          "size_bytes": 7946,
+          "sha256": "893665e8c80289505d7e686ef4f9034659d5073ceccacf3625c83ef3e87c5ca1"
+        }
+      ]
+    }
+  ],
+  "distinctive_excerpt_hashes": [
+    {
+      "path": "README.md",
+      "sha256": "312a0d57bb88d29533f9e8cf21d990940ce895112f68a11bb84be15c244e821f",
+      "bytes": 45
+    },
+    {
+      "path": "README.md",
+      "sha256": "772dd54d46e91186eb4eab7b925afa67f400ce4d23f46a6d17fd46dd2271d45c",
+      "bytes": 43
+    },
+    {
+      "path": "seed/training/engine.py",
+      "sha256": "56a4254cda485f76214ff0b45e0c361e9a11e97919055b7796a632e1d35bbfba",
+      "bytes": 49
+    },
+    {
+      "path": "seed/training/engine.py",
+      "sha256": "c54cc9f17f509bb7b07ca115fab27b5622d1b6218c596a37dc30ef806b1d0c2e",
+      "bytes": 67
+    }
+  ],
+  "limitations": [
+    "Git author labels and repository ownership are evidence for requested attribution, not cryptographic proof of authorship or title.",
+    "Generated seed-state and runtime state branches are preserved and recorded as tip snapshots; data/media and third-party material are not independently attributed by hashes."
+  ]
+}

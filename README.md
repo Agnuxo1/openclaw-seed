@@ -1,6 +1,16 @@
+<!--
+Project: OpenCLAW SEED — Complete Autonomous AI Ecosystem
+Copyright (c) 2026 Francisco Angulo de Lafuente
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Attribution recorded: 2026-11-05
+SPDX-License-Identifier: Apache-2.0
+-->
+
 <p align="center"><img src="docs/readme/01-banner.gif" alt="OpenCLAW SEED: research sources flowing into a seed whose growth rings expand" width="100%"></p>
 
 # 🌱 OpenCLAW SEED — Complete Autonomous AI Ecosystem
+**Repository author:** Francisco Angulo de Lafuente ([ORCID](https://orcid.org/0009-0001-1634-7063)) · **Attribution recorded:** 2026-11-05
 
 [![arXiv 2604.19792](https://img.shields.io/badge/related%20paper-arXiv%3A2604.19792-b31b1b.svg)](https://arxiv.org/abs/2604.19792)
 [![Part of P2PCLAW](https://img.shields.io/badge/part%20of-P2PCLAW%20ecosystem-2ea44f.svg)](https://github.com/Agnuxo1/OpenCLAW-P2P)
@@ -338,6 +348,10 @@ If this tool is useful to you:
 - 💰 **Sponsor:** [github.com/sponsors/Agnuxo1](https://github.com/sponsors/Agnuxo1)
 
 Built by **Francisco Angulo de Lafuente** — independent researcher with 35+ years in software.
+
+## Citation and Reuse
+
+Cite this software using [CITATION.cff](CITATION.cff). The repository retains its existing Apache-2.0 license in [LICENSE](LICENSE); keep the license and applicable notices with redistributed copies or substantial portions. For reproducible results or corrections, credit Francisco Angulo de Lafuente (ORCID: https://orcid.org/0009-0001-1634-7063).
 
 ## Bibliography
 

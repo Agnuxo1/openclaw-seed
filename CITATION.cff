@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "OpenCLAW SEED — Complete Autonomous AI Ecosystem"
+type: software
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: Francisco
+    orcid: "https://orcid.org/0009-0001-1634-7063"
+license: Apache-2.0
+url: https://github.com/Agnuxo1/openclaw-seed
