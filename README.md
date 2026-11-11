@@ -24,6 +24,10 @@ SPDX-License-Identifier: Apache-2.0
 
 **Contents** — [La Metáfora: De Semilla a Árbol](#la-metáfora-de-semilla-a-árbol) · [Background](#background) · [✅ Sistemas Vivos (Verificados)](#-sistemas-vivos-verificados) · [🔄 Qué Hace Automáticamente (Sin Intervención)](#-qué-hace-automáticamente-sin-intervención) · [🏋️ Siguiente Paso: Entrenamiento con GPU](#-siguiente-paso-entrenamiento-con-gpu) · [📊 Progresión del Modelo (Automática)](#-progresión-del-modelo-automática) · [🔐 Seguridad](#-seguridad) · [🧬 Arquitectura del Código](#-arquitectura-del-código) · [🌍 La Visión](#-la-visión) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Observations and limitations](#observations-and-limitations) · [🧩 P2PCLAW Ecosystem](#-p2pclaw-ecosystem) · [💝 Support](#-support) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> SEED connects scheduled research harvesting with dataset preparation and generated LoRA training workflows, providing a reusable path from collected material to a candidate adaptation run. This can reduce manual dataset assembly and training setup. The <a href="#observations-and-limitations">published observations</a> distinguish prepared scripts and dataset growth from completed training, keeping the claimed benefit focused on workflow preparation.</sub>
+<!-- impact-note:end -->
+
 ## La Metáfora: De Semilla a Árbol
 
 <p align="center"><img src="docs/readme/02-lora-cycle.gif" alt="A base model and a LoRA adapter trained, merged and published, then used as the next base" width="100%"><br><sub>Fig. 1 — The metaphor in code terms: one training script, schematic. Source: seed/training/engine.py.</sub></p>
